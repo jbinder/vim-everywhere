@@ -1,5 +1,5 @@
 lockComputer() {
-    lockFile := "..\tools\power-option-switchers\runners\switch-user"
+    lockFile := "..\tools\power-option-switchers\lock.bat"
 
     try {
         Run, %lockFile%
